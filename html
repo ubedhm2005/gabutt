@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Top Up Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Web Top Up Game</h1>
+
+    <form id="topupForm">
+        <label>Game</label>
+        <select required>
+            <option value="">-- Pilih Game --</option>
+            <option>Mobile Legends</option>
+            <option>Free Fire</option>
+            <option>PUBG Mobile</option>
+        </select>
+
+        <label>ID User</label>
+        <input type="text" placeholder="Masukkan ID" required>
+
+        <label>Nominal</label>
+        <select required>
+            <option value="">-- Pilih Nominal --</option>
+            <option>86 Diamonds</option>
+            <option>172 Diamonds</option>
+            <option>257 Diamonds</option>
+        </select>
+
+        <label>Metode Pembayaran</label>
+        <select required>
+            <option>DANA</option>
+            <option>OVO</option>
+            <option>GOPAY</option>
+        </select>
+
+        <button type="submit">Top Up Sekarang</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
